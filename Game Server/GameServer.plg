@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Nissimzo\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/GameServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Tel-Khara\Third_year\Semster A\Data Com\Project\project\Nassim Zaher ID 066412149 Wessam Abo Arar ID 037319209\Game Server\Game.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Nissimzo\LOCALS~1\Temp\RSP13C.tmp" 
+Creating temporary file "C:\DOCUME~1\Nissimzo\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/GameServer.pdb" /debug /machine:I386 /out:"Debug/GameServer.exe" /pdbtype:sept 
+".\Debug\ClieFunc.obj"
+".\Debug\Game.obj"
+".\Debug\global.obj"
+".\Debug\LoginThread.obj"
+".\Debug\main.obj"
+".\Debug\Player.obj"
+".\Debug\Socket.obj"
+".\Debug\StreamSocket.obj"
+".\Debug\Table.obj"
+".\Debug\TableManager.obj"
+".\Debug\Thread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Nissimzo\LOCALS~1\Temp\RSP13D.tmp"
+<h3>Output Window</h3>
+Compiling...
+Game.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GameServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
